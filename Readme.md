@@ -20,7 +20,9 @@ jQuery
 BDD
 Bootstrap
 Git
+
 ###BDD
+
 #specifications
 * it can count up to a certain number
 * it can detect if a number is divisible by 3
