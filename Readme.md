@@ -18,15 +18,28 @@ CSS
 JavaScript
 jQuery
 BDD
+<<<<<<< HEAD
 Bootstrap
 Git
+=======
+BootStraps
+GiT
+
+>>>>>>> gh-pages
 ###BDD
+
+
 #specifications
+
 * it can count up to a certain number
 * it can detect if a number is divisible by 3
 * it can detect if a number is divisible by 5
 * it can detect if a number is divisible by 3 and 5 at the same time
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
 ###Ping-Pong can be viewed at http://emmahrose.github.io/Gamer-2017
 
 ##License
