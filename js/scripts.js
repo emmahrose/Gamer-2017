@@ -9,10 +9,14 @@ jQuery(document).ready(function($) {
 
 var countr = function(numb) {
   for (var i = 1; i <= 16; i++) {
-    if (i % 3 === 0) {
-      alert("ping");
+    if ((i % 3 === 0) && (i % 5 === 0)) {
+
+      alert("ping pong");
+
     } else if (i % 5 === 0) {
       alert("pong");
+    } else if (i % 3 === 0) {
+      alert("ping");
     } else {
       alert(i);
     }
