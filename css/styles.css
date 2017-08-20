@@ -16,3 +16,16 @@
   .marg {
     margin: 30px;
   }
+
+  .jumbotron {
+    background-image: url("../img/images.jpg");
+  }
+
+  .color {
+    color: blue
+  }
+
+  .outputList {
+    margin-top: 20px;
+    color: blue;
+  }
