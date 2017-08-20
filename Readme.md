@@ -20,6 +20,7 @@ jQuery
 BDD
 Bootstrap
 Git
+<<<<<<< HEAD
 BootStraps
 GiT
 
@@ -27,6 +28,11 @@ GiT
 ###BDD
 
 
+=======
+
+###BDD
+
+>>>>>>> a16d40adfe0b587a7ea6cc80e5d07ecbf7e578dd
 #specifications
 
 * it can count up to a certain number
