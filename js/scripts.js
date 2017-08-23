@@ -1,29 +1,38 @@
 //user interface -front end
 jQuery(document).ready(function($) {
   $("form#max").submit(function(event) {
-    $("output").empty();
     event.preventDefault()
+    $("#outputList").empty();
     var numb = parseInt($("input#number").val());
     console.log(numb);
-    countr()
+    var results = countr(numb);
+    // console.log(numb);
+    // countr(
+    results.forEach(function(result) {
+      $(".outputList").append("<li>" + result + "</li>")
+    })
   });
 });
 //backend
 
-var countr = function(numb) {
-  for (var i = 1; i <= 100; i++) {
+function countr(numb) {
+  var range = []
+  for (var i = 1; i <= numb; i++) {
     if ((i % 3 === 0) && (i % 5 === 0)) {
-      $("#outputList").append('<li>pingpong</li>');
-
+      console.log(i)
+      range.push("pingpong")
+      //$("#outputList").append('<li>pingpong</li>');
 
 
     } else if (i % 5 === 0) {
-      $("#outputList").append('<li>pong</li>');
+      range.push('pong');
     } else if (i % 3 === 0) {
-      $("#outputList").append('<li>ping</li>');
+      range.push('ping');
     } else {
-      $("#outputList").append('<li>' + i + "</li>");
+      range.push(i);
     }
 
   }
+  console.log(range)
+  return range
 };
