@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 //backend
 
 var countr = function(numb) {
-  for (var i = 1; i <= 16; i++) {
+  for (var i = 1; i <= 100; i++) {
     if ((i % 3 === 0) && (i % 5 === 0)) {
       $("#outputList").append('<li>pingpong</li>');
 
